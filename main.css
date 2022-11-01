@@ -1,0 +1,358 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/montserrat-v25-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src:  url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+/* montserrat-regular - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v25-cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v25-cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-600 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''),
+       url('../fonts/montserrat-v25-cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-700 - cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+       url('../fonts/montserrat-v25-cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body{
+  font-family: 'Montserrat';
+  background: #EAEAEA;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+
+.site-header__logo, .footer__logo{
+  font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+color: #101010;
+}
+
+.hero__block{
+  border-radius: 30px;
+}
+.img-width{
+  max-width: 151px;
+}
+
+.card{
+  max-width: 350px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+}
+.text-coral{
+  color: #FFCE7F;
+  font-weight: 600;
+}
+.card-2{
+  position: relative;
+}
+.card-2::before{
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-image: url(./img/heart-icon-2.svg);
+  z-index: 2;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.card-3{
+  position: relative;
+}
+.card-3::before{
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-image: url(./img/heart-icon-2-black.svg);
+  z-index: 3;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.text-coral-2{
+color: #DF6464;
+font-weight: 600;
+}
+.footer__block-2{
+  width: 443px;
+}
+.footer__sup-item-link{
+  font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+color: #000000;
+}
+.footer__inner-link{
+  font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+color: #101010;
+}
+.footer__lang{
+  color: #FFA542;
+}
+.footer__inner-list::before{
+  display: inline-block;
+content: "";
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('./img/lang-icon.svg');
+}
+.footer__block{
+  background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 30px 30px 0px 0px;
+padding-top: 29px;
+padding-bottom: 32px;
+padding-left: 29px;
+padding-right: 26px;
+}
+.footer{
+  margin-bottom: 20px;
+}
+.site-header__korzinka-icon-2 img{
+  display: none;
+}
+.site-header__menu{
+  border: transparent;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: url('./img/menu.svg');
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+@media screen and (max-width:781px) {
+
+  .site-header__korzinka-icon, .dropdown{
+    display: none;
+  }
+  .site-header__korzinka-icon-2{
+    display: block;
+  }
+  .site-header__korzinka-icon-2 img{
+    display: inline-block;
+  }
+  .site-header__menu{
+    display: inline-block;
+  }
+  .hero__block {
+    flex-direction: column;
+  }
+  .emty{
+    display: none;
+  }
+  .row-cols-3{
+  justify-content: space-around;
+  }
+  .row-cols-3>* {
+    flex: auto;
+}
+.star-icon-block{
+  display: none;
+}
+.cool-2{
+  display: none;
+}
+
+  .footer__sup-list{
+    flex-direction: column;
+  }
+  .footer__list{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:567px){
+
+.row-cols-3{
+  flex-direction: column;
+  align-items: center;
+
+}
+.row-cols-3>*{
+  width: auto;
+}
+.card-col{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+}
+
+
+
+
+/* 2-PAGES */
+
+.second-hero__img-block-1 img ,.second-hero__img-block-2 img,.second-hero__img-block-3,.second-hero__img-block-4 img,.second-hero__img-block-5 img{
+  width: 330px;
+}
+.second-hero__block{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  position: relative;
+}
+.second-hero__contenet-sup-text{
+  color: #DF6464;
+}
+.second-hero__contenet-sup-del{
+  color: #AAAAAA;
+}
+.second-hero__contenet-sup-f{
+  color: #DF6464;
+}
+.second-hero__content-block {
+  max-width: 88%;
+}
+.second-hero__block::before{
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-image: url('./img/heart-icon-2.svg');
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+.second-hero__block::after{
+  content: "";
+  display: inline-block;
+  width: 86px;
+  height: 53px;
+  background-repeat: no-repeat;
+  background-image: url('./img/logo-icon-3.svg');
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+.second-hero{
+  margin-bottom: 23px;
+}
+
+.second-description__box-1{
+  width: 924px;
+background: #F9F9F9;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+}
+.second-description__title-box{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 15px;
+}
+.btn-4{
+ display: block;
+ width: 312px;
+background: #101010;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+}
+.second-description__link-2::before{
+ content: '';
+ display: inline-block;
+ width: 25px;
+ height: 25px;
+ background-repeat: no-repeat;
+ background-image: url('./img/korzinka-icon-2.svg');
+ vertical-align: middle;
+ margin-right: 5%;
+
+}
+
+@media screen and (max-width:965px) {
+
+  .second-hero__img-block-1, .second-hero__img-block-2, .second-hero__img-block-3, .second-hero__img-block-4, .second-hero__img-block-5{
+    margin: 0 auto;
+}
+
+  .second-hero__img-block-1 img, .second-hero__img-block-2 img, .second-hero__img-block-3, .second-hero__img-block-4 img, .second-hero__img-block-5 img {
+    width: 290px;
+}
+.second-description__block{
+  flex-direction: column;
+}
+.second-description__box-1{
+  width: 100%;
+}
+}
+
+@media screen and (max-width:464px){
+
+  .second-hero__img-block-1 img, .second-hero__img-block-2 img, .second-hero__img-block-3, .second-hero__img-block-4 img, .second-hero__img-block-5 img {
+      width: 260px;
+  }
+.second-hero__contenet-title, .second-hero__contenet-text, .second-hero__contenet-sup-f, .second-hero__contenet-sup-text,.second-hero__contenet-sup-del {
+  display: none;
+}
+
+}
